@@ -106,24 +106,25 @@ footer{
 .votebox{
 	display: flex;
 	flex-direction: column;
-	
+	align-items: center;
+
 	
 }
 .voteboxrow{
 	display: flex;
-	
-	justify-content: space-around;
+	flex:1;
+
 	
 
 }
 .voteboxbody{
-
+	
 	display: flex;
 	flex-direction: column;
 	
 	align-items: center;
-		width:100%;
-	height: 105px;
+		width:100px;
+	height: 103px;
 
 }
 
@@ -137,6 +138,7 @@ footer{
 	height:68px;
 
 }
+
 .vbctop{
 	background-color: #f5c97b;
 	width:64px;
@@ -157,9 +159,11 @@ footer{
 	display: none;
 }
 .iconrow>a>img{
-	width:17px;
-	height: 17px;
+	width:14px;
+	height: 14px;
 }
+
+
 
 /*foot*/
 .btn{
@@ -167,11 +171,12 @@ footer{
 	width: 100%;
 		margin-top:20px;
 	height: 100px;
+	border:none;
 		
 }
 
 .btnvote{
-
+	border:none;
 	background: #fbb435;
 	color:white;
 	height:45px;

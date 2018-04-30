@@ -127,7 +127,7 @@ header>img{
 	 align-items:flex-end;
 }
 .circle{ 
-	 
+	 	
 	  width: 10px;     
 	  height: 10px;      
 	  background-color:#69d1e9;      
@@ -139,13 +139,13 @@ header>img{
 .boxhome{
 		display: flex;
 		flex:1;
-
-		position: relative;
+position: relative;
+	
 }
 .boxleft{
- 	flex-direction: row;
+	display: flex;
  	position: absolute;
- 	right:10px;
+ 	left:1230px;
  	align-self: center;
  }
 

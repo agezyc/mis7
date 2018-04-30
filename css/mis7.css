@@ -139,13 +139,13 @@ header>img{
 .boxhome{
 		display: flex;
 		flex:1;
-position: relative;
-	
+
+		position: relative;
 }
 .boxleft{
-	display: flex;
+
  	position: absolute;
- 	left:1230px;
+ 	right:10px;
  	align-self: center;
  }
 

@@ -16,7 +16,7 @@ header{
     justify-content: space-between;
     align-items:flex-end;
     padding-right:0.3rem;
-    background-image:url("../img/矩形6.png"),url("../img/矩形10.png");
+    background-image:url("../img/discuss_03.png"),url("../img/discuss_05.png");
     background-repeat: no-repeat, no-repeat;
     background-position:3% 95%,97% 95%;
     background-size: 0.2rem 0.2rem;
@@ -38,7 +38,7 @@ header{
     position: relative;
     line-height: .5rem;
     font-size: .14rem;
-    background: #b9e9f5 url("../img/buttonleft.png") no-repeat 97% center;
+    background: #b9e9f5 url("../img/discuss_04.png") no-repeat 97% center;
     background-size:0.3rem 0.3rem;
     color: #464646;
     padding-left: .85rem;
@@ -49,7 +49,7 @@ header{
         position: relative;
         line-height: .5rem;
         font-size: .14rem;
-        background: #b9e9f5 url("../img/buttonleft.png") no-repeat 97% center;
+        background: #b9e9f5 url("../img/discuss_04.png") no-repeat 97% center;
         background-size:0.3rem 0.3rem;
         color: #464646;
         padding-left: .25rem;

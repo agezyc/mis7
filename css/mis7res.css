@@ -90,30 +90,38 @@ footer{
 .resulttop{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+	justify-content: flex-start;
+	align-items:flex-start;
+	margin:0 0 20px 20px;
 }
 .imgpos{
-	display: flex;
+	align-self: center;
 	
+	
+}
+
+.imgpos img{
+		display: flex;
+	flex:1;
+	align-self: flex-start;
 	justify-content: center;
-	
 }
 .txttop{
-	margin:20px 0 20px 0;
-	font-size: 16px;
+
+	margin:20px 0 20px;
+	font-size: 20px;
 	color:#ffc865;
-	padding: 10px 44px 5px 44px;
+	
 }
 .pro{
-	padding: 0px 44px 5px 44px;
+
 
 }
 
 .resulttop{}
 
 .resulttop>div:nth-child(3){
-	padding: 0px 44px 5px 44px;
+
 	
 }
 
@@ -130,6 +138,7 @@ footer{
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+	padding-left:20px;
 }
 .resbotrowbody{
 
@@ -138,7 +147,7 @@ footer{
 	flex:1;
 	height: 85px;
 	background: #fff;
-	padding: 0px 44px 5px 44px;
+
 	justify-content: flex-start;
 	flex-direction: column;
 	

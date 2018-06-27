@@ -137,9 +137,7 @@ header>img{
 	 margin-left:5px;
 	 }
 .boxhome{
-		display: flex;
-		flex:1;
-
+		
 		position: relative;
 }
 .boxleft{
@@ -147,6 +145,7 @@ header>img{
  	position: absolute;
  	left:97.2%;
  	align-self: center;
+ 	top:50%;
  }
 
 

@@ -98,10 +98,10 @@ header>img{
 }
 
 .btmbtn{
-	margin:15px 27px; 
+	margin:15px 17px; 
 	background: #69d1e9;
 	height:130px;
-	flex:1;
+	flex: 1;
 	justify-content: center;
 	align-items:center;
 	color:white;
@@ -140,14 +140,22 @@ header>img{
 		
 		position: relative;
 }
-.boxleft{
+
+.ar {
+	display: flex;
+	align-items:center;
+}
+
+.ml3 {
+	margin-right:32px;
+}
+/*.boxleft{
 
  	position: absolute;
- 	left:97.2%;
- 	align-self: center;
+ 	left:95.2%;
  	top:50%;
  }
-
+*/
 
 /*.boxtop>div{
 	display:flex;
